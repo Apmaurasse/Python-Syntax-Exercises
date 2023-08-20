@@ -12,6 +12,11 @@ def sum_nums(nums):
     # want you to use it. Please write this by hand.
 
     # YOUR CODE HERE
+    sum_nums = 0
+    for num in nums:
+        sum_nums += num
+    return sum_nums
+    
 
 
-print("sum_nums returned", sum_nums([1, 2, 3, 4]))
+#print("sum_nums returned", sum_nums([1, 2, 3, 4]))
